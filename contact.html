@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../Assests/css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---nav-->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!--header-->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"
+            ><img src="./imgs/food logo.png" alt=""
+          /></a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+
+        <!---links-->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="reciepe.html" class="nav-link">Reciepe</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!---end of nav-->
+
+    <!--main-->
+<main class="page">
+<section class="contact-container">
+<article class="contact-info">
+  <h3>Want To Get In Touch?</h3>
+  <p>Great communication begins with connection,Good communication is as stimulating as black coffee and just as hard to sleep after The way a team plays as a whole determines its success. You may have the greatest bunch of individual stars in the world, but if they don’t play together, the club won’t be worth a dime.Alone, we can do so little; together we can do so much.
+</article>
+
+<article>
+<form action="" class="form contact-form " >
+  <!---single form row-->
+<div class="form-row">
+<!--<label for="name" class="form-label">Your Name</label> -->
+<input type="text" name="name" id="name" class="form-input" placeholder="your Name">
+</div>
+<!---end of single form row-->
+
+ <!---single form row-->
+ <div class="form-row">
+ <!-- <label for="email" class="form-label">Your E-mail</label>-->
+  <input type="text" name="email" id="email" class="form-input" placeholder="your e-mail">
+  </div>
+  <!---end of single form row-->
+
+  <div class="form-row">
+    <!--<label for="message" class="form-label">Messasge</label>-->
+    <textarea name="Message" id="message" class="form-textarea" placeholder="say your mind"></textarea>
+  </div>
+<button type="submit" class="btn btn-block ">Submit</button>
+
+</form>
+
+
+</article>
+</section>
+<section class="featured-recipes">
+  <h4 class="featured-title">Look at this Awesomesouce!</h4>
+  <div class="recipes-list">
+    <!---single recipes-->
+  <a href="single-recipe.html" class="recipe"><img src="../Assests/imgs/rrrecipe1.avif" alt="bowl of rice" class="img recipe-img"><h5>Jollof Rice</h5><p>prep : 15min  | cook : 10min</p></a>
+    <!--end of single recipes-->
+  
+     <!---single recipes-->
+  <a href="single-recipe.html" class="recipe"><img src="../Assests/imgs/brecipe2.jpg" alt="Burger" class="img recipe-img"><h5>Burger</h5><p>prep : 5min  | cook : 10min</p></a>
+  <!--end of single recipes-->
+  
+  
+   <!---single recipes-->
+   <a href="single-recipe.html" class="recipe"><img src="../Assests/imgs/rrecipe4.jpg" alt="Cake" class="img recipe-img"><h5>Chocolate Cake</h5><p>prep : 30min  | cook : 20min</p></a>
+   <!--end of single recipes-->
+  </div>
+</section>
+
+</main>
+
+
+<!--end of main-->
+
+<!--footer-->
+<footer class="page-footer">
+<p> &copy; <span id="date"></span>
+<span class="footer-logo">Tasty Bites,</span> Built by Okere Gift.
+</p>
+
+</footer>
+
+
+<script src="../js/index.js"></script>
+  </body>
+</html>
